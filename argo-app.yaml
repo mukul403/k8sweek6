@@ -2,11 +2,11 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: argo-ui-app
-  namespace: argocd
+  namespace: argocd-mukul
 spec:
   project: default
   source:
-    repoURL: https://github.com/Lavanya-Balaji/k8s_terraform_mc
+    repoURL: https://github.com/mukul403/k8s_week6.git
     path: Week6/Argo-UI-Manifest
     targetRevision: main
   destination:
