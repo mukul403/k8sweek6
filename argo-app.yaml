@@ -7,7 +7,7 @@ spec:
   project: default
   source:
     repoURL: https://github.com/mukul403/k8s_week6.git
-    path: Week6/Argo-UI-Manifest
+    path: k8sweek6
     targetRevision: main
   destination:
     server: https://kubernetes.default.svc
